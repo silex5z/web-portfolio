@@ -1,0 +1,122 @@
+@charset "utf-8"; 
+
+@media all and (max-width:1023px) {
+  .section-content-wrap > li > ul > li> h2 {
+    font-size: 26px;
+  }
+
+  .section-content-wrap > li > ul > li> p {
+    font-size: 14px;
+  }
+  
+  .section7-slide-content {
+    padding: 70px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .section-wrap {
+    padding: 0;
+  }
+
+  .section-content-wrap > li {
+      float: none;
+      width: 100%;
+      height: auto;
+      text-align: center;
+  }
+
+  .section-content-wrap.right > li {
+      float: none;
+  }
+
+  .section-content-wrap > li:nth-child(1) > ul {
+      padding: 60px;
+  }
+
+  .section-content-wrap.right > li:nth-child(1) > ul  {
+      padding: 60px;
+  }
+
+  .section-content-wrap > li:nth-child(2) > p {
+      padding: 25px 0 0 0;
+  }
+
+  .section-content-wrap.right > li:nth-child(2) > p {
+      padding: 25px 0 0 0;
+  }
+
+  .slide > div {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: auto;
+    max-width: 100%;
+    background: rgba(0,0,0,.6);
+    z-index: 1;
+  }
+
+  .slide > div.addAniText {
+    left: 0;
+  }
+
+  .section7-slide-content {
+    padding: 50px 30px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  .section7-slide-content > li:last-child {
+    display: none;
+  }
+
+  .section7-slide-arrow-wrap {
+    display: none;
+  }
+
+  .section7-slide-image {
+
+  }
+
+  .section7-slide-nav-div-wrap {
+    width:100%;
+    left: 0;
+    bottom: 0;
+    padding: 20px 0;
+    background: #000;
+  }
+
+  .section7-slide-nav-wrap {
+    width: 100px;
+    bottom: 10px;
+  }
+
+}
+
+@media all and (max-width:500px) {
+  .section-content-wrap > li > ul > li> h2 {
+    font-size: 20px;
+  }
+
+  .section-content-wrap > li > ul > li> p {
+    font-size: 15px;
+  }
+
+  .section-content-wrap > li:nth-child(1) > ul {
+    padding: 30px;
+  }
+
+.section-content-wrap.right > li:nth-child(1) > ul  {
+    padding: 30px;
+  }
+}
+
+@media all and (max-width:400px) {
+  .section7-slide-content > li > h2{
+    font-size: 20px;
+  }
+
+  .section7-slide-content {
+    padding: 30px 20px;
+  }
+}
