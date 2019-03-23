@@ -1,16 +1,47 @@
-@charset "utf-8"; 
-
+@charset "utf-8";
 @media all and (max-width:1023px) {
-  .section-content-wrap > li > ul > li> h2 {
+  .section-content-wrap>li>ul>li>h2 {
     font-size: 26px;
   }
-
-  .section-content-wrap > li > ul > li> p {
+  .section-content-wrap>li>ul>li>p {
     font-size: 14px;
   }
-  
   .section7-slide-content {
     padding: 70px;
+  }
+}
+
+@media all and (max-width:960px) {
+  .footer-row2>.footer-telBox {
+    float: none;
+    width: 100%;
+  }
+  .footer-row2>.footer-telBox>li {
+    float: none;
+  }
+  .footer-row2>.footer-telBox>li:nth-child(1) {
+    display: none;
+  }
+  .footer-row2>.footer-telBox>li:nth-child(2) {
+    width: 100%;
+  }
+
+  .footer-row4 {
+    text-align: center;
+  }
+  .footer-row4>li {
+    float: none;
+    padding: 0 0 10px;
+    border-top: 1px solid #444;
+  }
+  .footer-row4>li:last-child {
+    float: none;
+  }
+  .footer-row4>li:first-child {
+    border: none;
+  }
+  .footer-row4>li>ul>li {
+    float: none;
   }
 }
 
@@ -19,103 +50,121 @@
     padding: 0;
   }
 
-  .section-content-wrap > li {
-      float: none;
-      width: 100%;
-      height: auto;
-      text-align: center;
+  #section1 {
+    height: auto;
+    background: none;
   }
 
-  .section-content-wrap.right > li {
-      float: none;
+  .mobile {
+      display: block;
   }
 
-  .section-content-wrap > li:nth-child(1) > ul {
-      padding: 60px;
+  .section-content-wrap>li {
+    float: none;
+    width: 100%;
+    height: auto;
+    text-align: center;
   }
-
-  .section-content-wrap.right > li:nth-child(1) > ul  {
-      padding: 60px;
+  .section-content-wrap.right>li {
+    float: none;
   }
-
-  .section-content-wrap > li:nth-child(2) > p {
-      padding: 25px 0 0 0;
+  .section-content-wrap>li:nth-child(1)>ul {
+    padding: 60px;
   }
-
-  .section-content-wrap.right > li:nth-child(2) > p {
-      padding: 25px 0 0 0;
+  .section-content-wrap.right>li:nth-child(1)>ul {
+    padding: 60px;
   }
-
-  .slide > div {
+  .section-content-wrap>li:nth-child(2)>p {
+    padding: 25px 0 0 0;
+  }
+  .section-content-wrap.right>li:nth-child(2)>p {
+    padding: 25px 0 0 0;
+  }
+  .slide>div {
     position: relative;
     top: 0;
     left: 0;
     height: auto;
     max-width: 100%;
-    background: rgba(0,0,0,.6);
+    background: rgba(0, 0, 0, .6);
     z-index: 1;
   }
-
-  .slide > div.addAniText {
+  .slide>div.addAniText {
     left: 0;
   }
-
   .section7-slide-content {
     padding: 50px 30px;
     text-align: center;
     box-sizing: border-box;
   }
-
-  .section7-slide-content > li:last-child {
+  .section7-slide-content>li:last-child {
     display: none;
   }
-
   .section7-slide-arrow-wrap {
     display: none;
   }
-
-  .section7-slide-image {
-
-  }
-
+  .section7-slide-image {}
   .section7-slide-nav-div-wrap {
-    width:100%;
+    width: 100%;
     left: 0;
     bottom: 0;
     padding: 20px 0;
     background: #000;
   }
-
   .section7-slide-nav-wrap {
     width: 100px;
     bottom: 10px;
   }
-
+  .footer-row3 {
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 0;
+  }
+  .footer-row3>ul>li {
+    float: none;
+    width: 100%;
+  }
+  .footer-row3>ul>li>h4 {
+    padding: 20px 0 20px 20px;
+    border-top: 1px solid #d9d9d9;
+  }
+  .footer-row3>ul>li>h4>a {
+    color: #000;
+    font-size: 24px;
+  }
+  .footer-row3>ul>li:first-child {
+    border-top: 0;
+  }
+  .footer-row3>ul>li>ul {
+    padding: 20px 0 10px 40px;
+  }
+  .footer-sub {
+    display: none;
+  }
+  .footer-sub.on {
+    display: block;
+  }
 }
 
 @media all and (max-width:500px) {
-  .section-content-wrap > li > ul > li> h2 {
+  .section-content-wrap>li>ul>li>h2 {
     font-size: 20px;
   }
-
-  .section-content-wrap > li > ul > li> p {
+  .section-content-wrap>li>ul>li>p {
     font-size: 15px;
   }
-
-  .section-content-wrap > li:nth-child(1) > ul {
+  .section-content-wrap>li:nth-child(1)>ul {
     padding: 30px;
   }
-
-.section-content-wrap.right > li:nth-child(1) > ul  {
+  .section-content-wrap.right>li:nth-child(1)>ul {
     padding: 30px;
   }
 }
 
 @media all and (max-width:400px) {
-  .section7-slide-content > li > h2{
+  .section7-slide-content>li>h2 {
     font-size: 20px;
   }
-
   .section7-slide-content {
     padding: 30px 20px;
   }

@@ -68,7 +68,7 @@ $(function(){
     // txtH1 = $('.section7-slide-content').eq(1).innerHeight();
     txtH2 = $('.section7-slide-content').eq(2).innerHeight();
     // console.log( txtH2 );
-    if($(window).innerWidth() <= 767){
+    if($(window).innerWidth() <= 766){
       $('.section7-slide-content').css({
         height: txtH2
       })
